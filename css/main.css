@@ -56,9 +56,14 @@ section ul {
   list-style: disc;
   margin-left: 35px;
 }
+h3 {
+  position: relative;
+}
 h3 time {
-  float: right;
   font-weight: normal;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 h3 span {
   font-weight: normal;
@@ -71,5 +76,9 @@ h3 span {
   header h1 img {
     top: 2px;
     width: 25px;
+  }
+  h3 time {
+    display: block;
+    position: static;
   }
 }
